@@ -2,7 +2,8 @@
 name = input("name: ")
 
 if name == 'James':
-    age == 12
+    age = 12
+    #can use either
     print(f'hello {name}, am {age} years old.')
     print('hello {}, am {} years old.'.format(name, age))
 
