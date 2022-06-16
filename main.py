@@ -5,7 +5,7 @@ if name == 'James':
     age = 12
     #can use either
     print(f'hello {name}, am {age} years old.')
-    print('hello {}, am {} years old.'.format(name, age))#best when dealing with large data
+    #print('hello {}, am {} years old.'.format(name, age))#best when dealing with large data
 
     age = input("age: ")
     if age >= '18':
